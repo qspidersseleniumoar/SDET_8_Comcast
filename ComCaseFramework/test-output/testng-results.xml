@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52" started-at="2020-12-22T07:40:28Z" finished-at="2020-12-22T07:40:28Z">
+    <groups>
+      <group name="regressionTest">
+        <method signature="AccountTest.modifyAccountTest()[pri:0, instance:com.comcast.accounttest.AccountTest@4de5031f]" name="modifyAccountTest" class="com.comcast.accounttest.AccountTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="AccountTest.createAccountTest()[pri:0, instance:com.comcast.accounttest.AccountTest@4de5031f]" name="createAccountTest" class="com.comcast.accounttest.AccountTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="52" started-at="2020-12-22T07:40:28Z" finished-at="2020-12-22T07:40:28Z">
+      <class name="com.comcast.accounttest.AccountTest">
+        <test-method status="PASS" signature="createAccountTest()[pri:0, instance:com.comcast.accounttest.AccountTest@4de5031f]" name="createAccountTest" duration-ms="15" started-at="2020-12-22T07:40:28Z" finished-at="2020-12-22T07:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="modifyAccountTest()[pri:0, instance:com.comcast.accounttest.AccountTest@4de5031f]" name="modifyAccountTest" duration-ms="2" started-at="2020-12-22T07:40:28Z" finished-at="2020-12-22T07:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAccountTest -->
+      </class> <!-- com.comcast.accounttest.AccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
