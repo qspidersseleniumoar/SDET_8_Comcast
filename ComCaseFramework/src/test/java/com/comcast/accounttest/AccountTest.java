@@ -20,4 +20,9 @@ public class AccountTest {
 		System.out.println("execute modifyAccountTest");
 	}
 
+	@Test(groups = "regressionTest")
+	public void deleteAccountTest() {
+		System.out.println("execute deleteAccountTest");
+	}
+
 }
